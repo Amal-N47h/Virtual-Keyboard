@@ -1,0 +1,51 @@
+/* src/VirtualKeyboard.css */
+.virtual-keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.virtual-keyboard input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.keyboard button {
+  padding: 15px;
+  margin: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s;
+}
+
+.keyboard button:hover {
+  background-color: #ddd;
+}
+
+/* Specific styles for spacebar and backspace */
+.spacebar {
+  width: 200px;
+}
+
+.backspace {
+  width: 160px;
+}
